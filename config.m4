@@ -44,10 +44,10 @@ if test "$PHP_FACE" != "no"; then
   PHP_ADD_INCLUDE($FACE_DIR/include)
 
   
-  PHP_ADD_LIBRARY_WITH_PATH(opencv_core, /usr/local/Cellar/opencv/2.4.13.2/lib, FACE_SHARED_LIBADD)
-  PHP_ADD_LIBRARY_WITH_PATH(opencv_video, /usr/local/Cellar/opencv/2.4.13.2/lib, FACE_SHARED_LIBADD)
-  PHP_ADD_LIBRARY_WITH_PATH(opencv_imgproc, /usr/local/Cellar/opencv/2.4.13.2/lib, FACE_SHARED_LIBADD)
-  PHP_ADD_LIBRARY_WITH_PATH(opencv_highgui, /usr/local/Cellar/opencv/2.4.13.2/lib, FACE_SHARED_LIBADD)
+  PHP_ADD_LIBRARY_WITH_PATH(opencv_core, $FACE_DIR/lib, FACE_SHARED_LIBADD)
+  PHP_ADD_LIBRARY_WITH_PATH(opencv_video, $FACE_DIR/lib, FACE_SHARED_LIBADD)
+  PHP_ADD_LIBRARY_WITH_PATH(opencv_imgproc, $FACE_DIR/lib, FACE_SHARED_LIBADD)
+  PHP_ADD_LIBRARY_WITH_PATH(opencv_highgui, $FACE_DIR/lib, FACE_SHARED_LIBADD)
 
   
   PHP_SUBST(FACE_SHARED_LIBADD)
