@@ -1,0 +1,1 @@
+int getAverageFace(string imageNames, string allPoints, string resultPath)
