@@ -2,7 +2,7 @@ DPAverageFace - Average Face For PHP Extension
 ===============
 
 An PHP Extension used to generate average face from serveral human faces
-
+![Output image](https://github.com/Xiaodupi108/DPAverageFace/raw/master/output/test.jpg)
 
 Requirements
 ------------------
@@ -13,7 +13,7 @@ PHP 5.4+
 
 Usage
 ------------------
-1. Install OpenCV 2.4.13.2 according to OpenCV official guide. (http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html)
+1. Install OpenCV 2.4.13.2 according to [OpenCV official guide](http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html).
 2. Run compile.sh
 3. Add 'extension = face.so' to the end of php.ini, if you use both php-fpm and php-cli then you need to change both php.ini file
 4. Restart php service and your web service(nginx, apache etc.)
