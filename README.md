@@ -25,10 +25,6 @@ PS: face.def is a file with extension's function definition which used to create
 
 Good luck~
 
-Online Example
-------------------
-[我的宝贝长这样](https://www.xiaodupi.cn/act/game/average-face)
-
 
 Reference
 ------------------
